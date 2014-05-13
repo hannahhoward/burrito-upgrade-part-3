@@ -1,7 +1,5 @@
 class BurritosController < ApplicationController
 
-  before_action :authenticate_user
-
   def index
     @burritos = Burrito.all
   end
